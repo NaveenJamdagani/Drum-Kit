@@ -1,0 +1,35 @@
+body,html
+{
+	background-image: url("../images/a.jpeg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	font-family: sans-serif;
+}
+
+#wrapper
+{
+	position: absolute;
+	top: 50%;
+	left: 15%;
+	transform: translate(0,-50%);
+}
+
+.alphabet
+{
+	border: 5px solid white;
+	padding: 2em;
+	margin: 0.5em;
+	background-color: #000;
+	opacity: 0.8;
+	color: white;
+	display: inline-block;
+	transition: 1s;
+}
+
+.playing
+{
+	transform: scale(1.1);
+	background-color: green;
+	box-shadow: 1px 1px 10px green;
+}
