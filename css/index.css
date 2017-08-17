@@ -24,7 +24,7 @@ body,html
 	opacity: 0.8;
 	color: white;
 	display: inline-block;
-	transition: 1s;
+	transition: all 0.3s;
 }
 
 .playing
