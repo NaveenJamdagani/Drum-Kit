@@ -1,4 +1,4 @@
-body,html
+body
 {
 	background-image: url("../images/a.jpeg");
 	background-size: cover;
@@ -10,8 +10,17 @@ body,html
 .wrapper
 {
 	display: block;
-	width: 80%;
-	margin: 0 auto;
+	float: left;
+}
+
+.wrapper:nth-child(2)
+{
+	margin-left: 1em;
+}
+
+.wrapper:nth-child(3)
+{
+	margin-left: 2em;
 }
 
 .alphabet
