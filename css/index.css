@@ -7,6 +7,13 @@ body
 	font-family: sans-serif;
 }
 
+#container
+{
+	width: 80%;
+	margin: 0 auto;
+	margin-top: 10%;	
+}
+
 .wrapper
 {
 	display: block;
@@ -15,12 +22,12 @@ body
 
 .wrapper:nth-child(2)
 {
-	margin-left: 1em;
+	margin-left: 2em;
 }
 
 .wrapper:nth-child(3)
 {
-	margin-left: 2em;
+	margin-left: 5em;
 }
 
 .alphabet
@@ -32,7 +39,7 @@ body
 	opacity: 0.8;
 	color: white;
 	display: inline-block;
-	transition: all 1s;
+	transition: all 0.3s;
 }
 
 .playing
